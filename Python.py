@@ -1,5 +1,5 @@
 import math
-def slogenie(a1, b1):
+def keisan(a1, b1):
     return (a1 + b1)
   
   d = True
