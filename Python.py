@@ -15,3 +15,7 @@ while (d):
            break
         except ValueError:
              print("えらーだよ！")
+            
+go_again = input("手順を続行しますか? ([はい]か[いいえ]で答えてください。)")
+    if go_again == "いいえ":
+        break
