@@ -1,6 +1,7 @@
-import math
-def keisan(a1, b1):
-    return (a1 + b1)
+import math as m
+def keisan(n):
+    return (n)
+    # Testing phase
   
   d = True
 while (d):
@@ -9,7 +10,8 @@ while (d):
   
     while True:
         try:
-           menu = int(input("質量を入力してください："))
+            result = keisan(n=int(input("質量を入力してください：")),
+                  print("計算結果：", result)
            break
         except ValueError:
              print("えらーだよ！")
