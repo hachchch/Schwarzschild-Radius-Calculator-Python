@@ -1,1 +1,1 @@
-まだ使えない
+It is my first time python work
