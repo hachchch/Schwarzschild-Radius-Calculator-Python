@@ -6,4 +6,4 @@ The Schwarzschild radius is the size of a mass body when the speed at which it c
 
 The number you can enter is mass (kg). Press = to calculate the Schwarzschild radius from the mass.
 
-try!
+enjoy!
