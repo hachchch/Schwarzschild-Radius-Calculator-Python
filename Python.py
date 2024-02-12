@@ -41,9 +41,7 @@ class CaluGui(object):
     def click_button(self, event):
         check = event.widget['text']
         if check == '=':
-            res = '= ' + str(eval(self.calc_str))
-            self.ans_var.set(res)
-            sr = 'to 2GM/C^2 ' + str(eval(self.calc_str))
+            sr = 'to 2GM/C^2 is ' + str(eval(self.calc_str))
             self.ans_var.set(sr)
         elif check == 'C':
             self.calc_str = ''
