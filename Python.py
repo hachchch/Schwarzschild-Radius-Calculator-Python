@@ -27,8 +27,8 @@ class CaluGui(object):
 
         self.calc_var = tk.StringVar()
         self.ans_var = tk.StringVar()
-        calc_label = tk.Label(calc_frame, textvariable=self.calc_var, font=("",20))
-        ans_label = tk.Label(calc_frame, textvariable=self.ans_var, font=("",15))
+        calc_label = tk.Label(calc_frame, textvariable=self.calc_var, font=("",10))
+        ans_label = tk.Label(calc_frame, textvariable=self.ans_var, font=("",8))
         calc_label.pack(anchor=tk.E)
         ans_label.pack(anchor=tk.E)
 
@@ -41,7 +41,7 @@ class CaluGui(object):
     def click_button(self, event):
         check = event.widget['text']
         if check == '=':
-            sr = 'to 2GM/C^2 is ' + str(eval(self.calc_str) * 2 * 6.674 / 89875517900000000) + 'mm'
+            sr = 'to 2GM/C^2 is ' + str(eval(self.calc_str) * 2 * 6.674 / 8987551790000000000000000) + 'mm'
             self.ans_var.set(sr)
         elif check == 'C':
             self.calc_str = ''
