@@ -1,4 +1,3 @@
-import math as ma
 import tkinter as tk
 from tkinter import ttk
 
