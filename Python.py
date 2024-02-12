@@ -15,7 +15,7 @@ class CaluGui(object):
     def __init__(self, app=None):
         self.calc_str = ('')
 
-        app.title('質量からのシュバルツシルト半径計算機(簡易的)')
+        app.title('M(kg)の値を入力してください')
         app.geometry('300x450')
 
         calc_frame = ttk.Frame(app, width=300, height=100)
